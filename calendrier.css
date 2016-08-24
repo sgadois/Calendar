@@ -1,0 +1,45 @@
+.jour {
+	border: 1px solid black;
+	cursor: pointer;
+	padding: 5px;
+	line-height: 90%;
+	height: 50px;
+	width: 100%;
+}
+
+.jour:hover {
+	background: grey;
+}
+
+#tableCalendrier {
+	border: 1px solid black;
+	border-collapse: separate;
+	border-spacing: 20px 10px;
+}
+
+#moisPrec, #moisSuiv{
+	cursor: pointer;
+}
+
+.numero {
+	float: left;
+	margin-top: 0px;
+}
+
+.reunion, .tache {
+	font-size: 75%;
+	width: 90%;
+	margin-top: 2px;
+}
+
+.reunion {
+	background: #3385ff;
+}
+
+.tache {
+	background: #ff5c33;
+}
+
+.currentDay {
+	background: #ffb84d
+}
